@@ -1,12 +1,1 @@
 
-#This setting tells Eureka to prefer IP addresses over hostnames when registering with the Eureka server.
-eureka.instance.preferIpAddress=true
-
-#This setting instructs the Eureka client to fetch the registry information from the Eureka server.
-eureka.client.fetchRegistry=true
-
-#This setting enables the Eureka client to register itself with the Eureka server.
-eureka.client.registerWithEureka=true
-
-#This specifies the URL where the Eureka client can find the Eureka server.
-eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka
